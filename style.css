@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Strat header*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image/back6.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+/*******************************************************/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+width: 200px;
+margin-left: 40px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+nav{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+nav li{
+    padding: 10px 20px;
+    list-style: none;
+}
+nav li a{
+   text-decoration: none;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    color: aliceblue;
+    text-transform: capitalize;  
+}
+nav li a:hover{
+    border-bottom: rgb(255, 255, 255,0.7) solid 2px;
+    
+}
+/******************************************/
+.content{
+    width: 35%;
+    margin-top: 120px;
+    margin-left: 50px;
+    
+}
+.content h2{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.content h2 span{
+    color: #ffffff;
+}
+.content p{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/*******************************************/
+.btn{
+    margin-left: 50px;
+}
+.btn .b1{
+    padding: 10px 30px;
+    background-color: #000000;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn .b1 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
+}
+.btn .b1:hover{
+    background:transparent;
+    transition: 0.5s ease-in;
+}
+.btn .b2{
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn .b2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
+}
+.btn .b2:hover{
+    background:#3d3d3d5e;
+    transition: 0.5s ease-in;
+}
+
+/**************************************************/
+
+
+
+.icon{
+    display: flex;
+    justify-content: end;
+    
+}
+.icon11{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 300px;
+}
+.icon11 img{
+    width: 40px;
+}
+.icon11 a{
+    margin-right: 20px;
+}
+.icon11 img:hover{
+    transform: scale(1.080);
+    transition: 0.5s;
+}
+/*******************************************************/
+/*end header*/
+
+
+/*start section About*/
+
+.about h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+}
+/*********************************************/
+video{
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*******************************************/
+.container h3{
+    margin-top :45px; 
+    margin-left: 40px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.container p{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+/**********************************************/
+ol li{
+    margin-left:  45px;
+    margin-top: 10px;
+}
+/*******************************************/
+.botn{
+    padding: 10px 20px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    background-color:#000000;
+    border: solid 1px black;
+}
+.botn:hover{
+    background-color:transparent ;
+    transition: 0.5s ease-in;
+
+}
+.botn a{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+.botn a:hover{
+    color: #000000;
+}
+
+/*********************************************/
+/****Model section start*******************/
+.model{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/back2.jpg);
+    width: 100%;
+    min-height: 110vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.articlo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px;
+}
+
+.content-card{
+    margin-top: 30px;
+  margin:auto;  
+  
+}
+.card{
+    width: 280px;
+    background-color: #eeeeeeec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.080);
+   
+    cursor: pointer;
+    
+}
+.card img{
+    width: 100%;
+    height:  auto;
+    
+
+}
+.container-card{
+   min-height: 200px;
+    
+}
+.container-card h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.container-card p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 10px ;
+}
+/***********************************************************************************/
+
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/back5.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.container-contact{
+    max-width: 600px;
+    margin:  auto;
+    padding: 20px;
+    border-top: 5px solid blanchedalmond;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title-contact{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+.btn-sub{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0a640d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn-sub:hover {
+    background-color: #45a049;
+}
